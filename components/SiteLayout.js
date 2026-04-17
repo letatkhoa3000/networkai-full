@@ -8,7 +8,7 @@ export default function SiteLayout({ children, currentPath = "/", content }) {
         <div className="header-inner">
           <Link href="/" className="brand">
             <Image src="/logo.png" alt="NetworkAI logo" width={170} height={44} className="brand-logo" />
-            <div className="brand-tag">Amazing Solutions</div>
+            <div className="brand-text">Amazing Solutions</div>
           </Link>
 
           <nav className="nav">
@@ -29,7 +29,7 @@ export default function SiteLayout({ children, currentPath = "/", content }) {
         <div className="footer-inner">
           <div className="brand">
             <Image src="/logo.png" alt="NetworkAI logo" width={170} height={44} className="brand-logo" />
-            <div className="brand-tag">Amazing Solutions</div>
+            <div className="brand-text">Amazing Solutions</div>
           </div>
           <div>{content.footerTagline}</div>
         </div>

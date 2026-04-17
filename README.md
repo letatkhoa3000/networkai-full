@@ -1,14 +1,6 @@
 # NetworkAI Website
 
-Production-ready multi-page Next.js website for NetworkAI.
-
-## Pages
-- /
-- /about
-- /solutions
-- /services
-- /projects
-- /contact
+Multi-page Next.js website for NetworkAI.
 
 ## Run locally
 ```bash
@@ -16,10 +8,6 @@ npm install
 npm run dev
 ```
 
-## Deploy
-Import the folder into Vercel.
-
-## Notes
-- Contact form currently validates and posts to `/api/contact`.
-- The API currently returns success for testing. You can later connect Resend or another email service.
-- Replace `/public/logo.png` with your official logo if needed.
+## Deploy on Vercel
+- Import this project into Vercel
+- Optional environment variables for email delivery can be added later

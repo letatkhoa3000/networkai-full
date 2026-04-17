@@ -29,7 +29,7 @@ export function HomeHero({ content }) {
           <div className="mini-grid">
             {content.productFeatures.slice(0, 4).map(([title, desc]) => (
               <div key={title} className="mini-card">
-                <div className="icon-box" />
+                <div className="mini-icon" />
                 <h4>{title}</h4>
                 <p>{desc}</p>
               </div>
@@ -69,7 +69,7 @@ export function AboutSection({ content }) {
         <div className="grid-2">
           <SectionHeading eyebrow={content.aboutEyebrow} title={content.aboutTitle} desc={content.aboutDesc} />
           <div className="card">
-            <div className="icon-box" />
+            <div className="feature-icon" />
             <p>{content.aboutExtra}</p>
           </div>
         </div>
@@ -94,9 +94,7 @@ export function SolutionsSection({ content }) {
         <div className="dark-block">
           <div className="pill pill-light">{content.productEyebrow}</div>
           <h2 style={{ marginTop: 18, marginBottom: 0, fontSize: 38 }}>{content.productTitle}</h2>
-          <div style={{ marginTop: 12, textTransform: "uppercase", letterSpacing: "0.2em", color: "#8cf5eb", fontSize: 12, fontWeight: 700 }}>
-            {content.productTag}
-          </div>
+          <div style={{ marginTop: 12, textTransform: "uppercase", letterSpacing: "0.2em", color: "#8cf5eb", fontSize: 12, fontWeight: 700 }}>{content.productTag}</div>
           <p style={{ marginTop: 18 }}>{content.productDesc}</p>
           <div className="stack-row">
             <a href="https://www.netargus.io/#" target="_blank" className="cta-button">{content.productPrimary}</a>
@@ -104,10 +102,10 @@ export function SolutionsSection({ content }) {
           </div>
         </div>
 
-        <div className="grid-2">
+        <div className="grid-2 feature-grid">
           {content.productFeatures.map(([title, desc]) => (
             <div key={title} className="feature-card">
-              <div className="icon-box" />
+              <div className="feature-icon" />
               <h4>{title}</h4>
               <p>{desc}</p>
             </div>
@@ -127,10 +125,10 @@ export function ServicesSection({ content, locale }) {
     <section className="section">
       <div className="container">
         <SectionHeading eyebrow={content.servicesEyebrow} title={content.servicesTitle} desc={content.servicesDesc} />
-        <div className="grid-3" style={{ marginTop: 32 }}>
+        <div className="grid-3 services-grid">
           {content.services.map(([title, desc]) => (
             <div key={title} className="service-card">
-              <div className="icon-box" />
+              <div className="feature-icon" />
               <h4>{title}</h4>
               <p>{desc}</p>
             </div>
@@ -169,7 +167,7 @@ export function ProjectsSection({ content }) {
     <section className="section">
       <div className="container">
         <SectionHeading eyebrow={content.projectsEyebrow} title={content.projectsTitle} desc={content.projectsDesc} />
-        <div className="grid-3" style={{ marginTop: 32 }}>
+        <div className="grid-3 projects-grid">
           {content.projects.map(([title, desc]) => (
             <div key={title} className="project-card">
               <h4>{title}</h4>
@@ -197,7 +195,7 @@ export function ProjectsSection({ content }) {
 
         <div className="card" style={{ marginTop: 26 }}>
           <div className="pill pill-soft">Partners</div>
-          <div className="grid-4" style={{ marginTop: 20 }}>
+          <div className="grid-4 partners-grid">
             {partnerLogos.map((name) => (
               <div key={name} className="partner-card" style={{ display: "flex", justifyContent: "center", alignItems: "center", minHeight: 82, fontWeight: 700, color: "#64748b", letterSpacing: "0.08em" }}>
                 {name}

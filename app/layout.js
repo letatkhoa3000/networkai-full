@@ -2,8 +2,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "NetworkAI | Amazing Solutions",
-  description:
-    "NetworkAI provides ELV, IT infrastructure, Smart Building, and Network Intelligence solutions for hospitality and enterprise projects.",
+  description: "NetworkAI provides ELV, IT infrastructure, Smart Building, and NetOps Argus solutions for hospitality and enterprise projects.",
 };
 
 export default function RootLayout({ children }) {

@@ -13,7 +13,7 @@ export function ContactInfoPanel({ content, locale }) {
       <div className="grid-3">
         <ContactInfoCard title={locale === "en" ? "Address" : "Địa chỉ"} value={content.address} />
         <ContactInfoCard title={locale === "en" ? "Phone" : "Điện thoại"} value={"+84.236.730.8188"} />
-        <ContactInfoCard title="Email" value={"sales@networkai.vn"} />
+        <ContactInfoCard title="Email" value={"sales@networkai.vn\nletatkhoa@gmail.com"} />
       </div>
 
       <div className="glass-panel">
