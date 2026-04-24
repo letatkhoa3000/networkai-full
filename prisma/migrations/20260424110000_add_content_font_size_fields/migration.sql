@@ -1,0 +1,7 @@
+ALTER TABLE "homepage_sections"
+ADD COLUMN "titleSize" TEXT NOT NULL DEFAULT 'md',
+ADD COLUMN "bodySize" TEXT NOT NULL DEFAULT 'md';
+
+ALTER TABLE "core_values"
+ADD COLUMN "titleSize" TEXT NOT NULL DEFAULT 'md',
+ADD COLUMN "bodySize" TEXT NOT NULL DEFAULT 'md';

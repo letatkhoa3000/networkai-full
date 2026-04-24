@@ -1,0 +1,314 @@
+// =============================================================
+// NetworkAI Website - Prisma Schema
+// Stack: Next.js App Router + Supabase Postgres + Prisma
+// Bilingual: all user-facing content stores Vietnamese and English pairs
+// =============================================================
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+// =============================================================
+// AUTH
+// =============================================================
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String   // bcrypt hash
+  name      String
+  role      UserRole @default(EDITOR)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("users")
+}
+
+enum UserRole {
+  ADMIN
+  EDITOR
+}
+
+// =============================================================
+// SETTINGS
+// Used for site-wide values such as contact info, SEO defaults, and socials
+// =============================================================
+
+model Setting {
+  id        String   @id @default(cuid())
+  key       String   @unique // e.g. "contact.email", "seo.defaultTitle"
+  value     String
+  label     String?  // Admin CMS label
+  updatedAt DateTime @updatedAt
+
+  @@map("settings")
+}
+
+// =============================================================
+// HOMEPAGE SECTIONS
+// Each row represents one homepage section such as hero, about, or CTA
+// =============================================================
+
+model HomepageSection {
+  id          String   @id @default(cuid())
+  key         String   @unique // "hero" | "about_short" | "core_values" | "cta"
+  titleVi     String
+  titleEn     String
+  titleSize   String   @default("md")
+  subtitleVi  String?
+  subtitleEn  String?
+  bodyVi      String?  @db.Text
+  bodyEn      String?  @db.Text
+  bodySize    String   @default("md")
+  ctaLabelVi  String?
+  ctaLabelEn  String?
+  ctaUrl      String?
+  imageUrl    String?
+  isVisible   Boolean  @default(true)
+  sortOrder   Int      @default(0)
+  updatedAt   DateTime @updatedAt
+
+  @@map("homepage_sections")
+}
+
+// =============================================================
+// CORE VALUES
+// Homepage value cards
+// =============================================================
+
+model CoreValue {
+  id            String   @id @default(cuid())
+  titleVi       String   // e.g. "Chuyen nghiep"
+  titleEn       String   // e.g. "Professionalism"
+  titleSize     String   @default("md")
+  descriptionVi String   @db.Text
+  descriptionEn String   @db.Text
+  bodySize      String   @default("md")
+  icon          String?  // icon name, e.g. "shield", "star", "heart"
+  sortOrder     Int      @default(0)
+  isVisible     Boolean  @default(true)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@map("core_values")
+}
+
+// =============================================================
+// SERVICES
+// Main NetworkAI service offerings
+// =============================================================
+
+model Service {
+  id            String   @id @default(cuid())
+  slug          String   @unique // "ict-system-design"
+  titleVi       String   // Vietnamese service title
+  titleEn       String   // English service title
+  descriptionVi String   @db.Text
+  descriptionEn String   @db.Text
+  shortDescVi   String?  // Short card summary
+  shortDescEn   String?
+  icon          String?  // icon name or SVG URL
+  imageUrl      String?
+  problemPointsVi String[] @default([])
+  problemPointsEn String[] @default([])
+  scopeItemsVi    String[] @default([])
+  scopeItemsEn    String[] @default([])
+  deliverablesVi  String[] @default([])
+  deliverablesEn  String[] @default([])
+  processStepsVi  String[] @default([])
+  processStepsEn  String[] @default([])
+  fitForVi        String[] @default([])
+  fitForEn        String[] @default([])
+  systemTagsVi    String[] @default([])
+  systemTagsEn    String[] @default([])
+  benefitsVi      String[] @default([])
+  benefitsEn      String[] @default([])
+  faqItemsVi      String[] @default([])
+  faqItemsEn      String[] @default([])
+  featured      Boolean  @default(false) // Show on homepage
+  isVisible     Boolean  @default(true)
+  sortOrder     Int      @default(0)
+  metaTitleVi   String?
+  metaTitleEn   String?
+  metaDescVi    String?
+  metaDescEn    String?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  // Relations
+  projects      ProjectService[]
+
+  @@map("services")
+}
+
+// =============================================================
+// SOLUTIONS
+// Vertical-specific solutions, separate from core service offerings
+// =============================================================
+
+model Solution {
+  id            String   @id @default(cuid())
+  slug          String   @unique // "smart-hotel"
+  titleVi       String
+  titleEn       String
+  descriptionVi String   @db.Text
+  descriptionEn String   @db.Text
+  shortDescVi   String?
+  shortDescEn   String?
+  imageUrl      String?
+  featured      Boolean  @default(false)
+  isVisible     Boolean  @default(true)
+  sortOrder     Int      @default(0)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@map("solutions")
+}
+
+// =============================================================
+// PROJECTS
+// Featured project portfolio
+// =============================================================
+
+model Project {
+  id            String          @id @default(cuid())
+  slug          String          @unique // "hyatt-regency-danang"
+  nameVi        String          // Vietnamese project name
+  nameEn        String
+  descriptionVi String?         @db.Text
+  descriptionEn String?         @db.Text
+  shortDescVi   String?
+  shortDescEn   String?
+  thumbnailUrl  String?
+  imageUrls     String[]        @default([]) // Additional gallery images
+  location      String?         // e.g. "Da Nang", "Ha Noi"
+  year          Int?
+  hotelBrand    String?         // e.g. "Hilton", "Marriott", "Accor"
+  hotelGroup    String?         // e.g. "Hilton Hotels & Resorts"
+  category      ProjectCategory @default(HOSPITALITY)
+  status        ProjectStatus   @default(COMPLETED)
+  featured      Boolean         @default(false)
+  isVisible     Boolean         @default(true)
+  sortOrder     Int             @default(0)
+  metaTitleVi   String?
+  metaTitleEn   String?
+  metaDescVi    String?
+  metaDescEn    String?
+  createdAt     DateTime        @default(now())
+  updatedAt     DateTime        @updatedAt
+
+  // Relations
+  services      ProjectService[]
+
+  @@map("projects")
+}
+
+enum ProjectCategory {
+  HOSPITALITY // Hotel and resort
+  OFFICE      // Office and commercial building
+  RESIDENTIAL // Smart home / residential
+  CASINO      // Casino and entertainment
+  OTHER
+}
+
+enum ProjectStatus {
+  COMPLETED
+  IN_PROGRESS // Currently under implementation
+  UPCOMING
+}
+
+// Many-to-many: Project <-> Service
+model ProjectService {
+  project   Project @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  projectId String
+  service   Service @relation(fields: [serviceId], references: [id], onDelete: Cascade)
+  serviceId String
+
+  @@id([projectId, serviceId])
+  @@map("project_services")
+}
+
+// =============================================================
+// PARTNERS
+// Technology partners and hotel brands
+// =============================================================
+
+model Partner {
+  id         String      @id @default(cuid())
+  name       String      // e.g. "Cisco Meraki"
+  logoUrl    String
+  websiteUrl String?
+  type       PartnerType @default(TECHNOLOGY)
+  isVisible  Boolean     @default(true)
+  sortOrder  Int         @default(0)
+  createdAt  DateTime    @default(now())
+  updatedAt  DateTime    @updatedAt
+
+  @@map("partners")
+}
+
+enum PartnerType {
+  TECHNOLOGY  // Microsoft, Cisco, HPE Aruba, etc.
+  HOTEL_BRAND // Hilton, Marriott, Accor, etc.
+}
+
+// =============================================================
+// TEAM MEMBERS
+// Extended team members shown on the About page if needed
+// =============================================================
+
+model TeamMember {
+  id         String   @id @default(cuid())
+  nameVi     String
+  nameEn     String
+  titleVi    String
+  titleEn    String
+  avatarUrl  String?
+  department String?  // "Engineering" | "Sales" | "Support"
+  sortOrder  Int      @default(0)
+  isVisible  Boolean  @default(true)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@map("team_members")
+}
+
+// =============================================================
+// CONTACT SUBMISSIONS
+// Leads created from the contact form
+// =============================================================
+
+model ContactSubmission {
+  id          String           @id @default(cuid())
+  name        String
+  email       String
+  phone       String?
+  company     String?
+  serviceType String?          // Interested service type
+  message     String           @db.Text
+  // Metadata
+  ipAddress   String?
+  userAgent   String?
+  source      String?          @default("contact_form") // e.g. utm_source
+  // Admin workflow
+  status      SubmissionStatus @default(NEW)
+  adminNote   String?          @db.Text // Internal admin note
+  repliedAt   DateTime?
+  createdAt   DateTime         @default(now())
+  updatedAt   DateTime         @updatedAt
+
+  @@map("contact_submissions")
+}
+
+enum SubmissionStatus {
+  NEW      // Not reviewed yet
+  READ     // Reviewed
+  REPLIED  // Replied
+  CLOSED   // Closed
+}
