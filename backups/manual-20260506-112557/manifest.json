@@ -1,0 +1,582 @@
+﻿[
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\package.json",
+        "Size":  815,
+        "Modified":  "2026-04-22T11:15:09"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\content-backup-20260422-200022.json",
+        "Size":  62699,
+        "Modified":  "2026-04-22T20:00:22"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\next.config.ts",
+        "Size":  133,
+        "Modified":  "2026-04-21T09:36:04"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\postcss.config.js",
+        "Size":  82,
+        "Modified":  "2026-04-21T14:30:47"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\tsconfig.json",
+        "Size":  670,
+        "Modified":  "2026-04-21T09:36:04"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\tailwind.config.js",
+        "Size":  664,
+        "Modified":  "2026-04-21T14:31:45"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\.env",
+        "Size":  1931,
+        "Modified":  "2026-05-04T15:19:40"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\postcss.config.mjs",
+        "Size":  94,
+        "Modified":  "2026-04-21T09:36:04"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\AGENTS.md",
+        "Size":  327,
+        "Modified":  "2026-04-21T09:36:21"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\README.md",
+        "Size":  1450,
+        "Modified":  "2026-04-21T09:36:04"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\prisma.config.ts",
+        "Size":  241,
+        "Modified":  "2026-04-24T09:42:33"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\package-lock.json",
+        "Size":  100458,
+        "Modified":  "2026-04-22T08:00:06"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\CLAUDE.md",
+        "Size":  11,
+        "Modified":  "2026-04-21T09:36:21"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\.env.local",
+        "Size":  1872,
+        "Modified":  "2026-04-21T14:06:07"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\vendor-logos\\accor.png",
+        "Size":  73092,
+        "Modified":  "2026-04-22T15:19:10"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\vendor-logos\\ihg-hotels-resorts.svg",
+        "Size":  12291,
+        "Modified":  "2026-04-22T15:20:12"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\vendor-logos\\lg.svg",
+        "Size":  2369,
+        "Modified":  "2026-04-22T15:45:14"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\vendor-logos\\nutanix.jpg",
+        "Size":  16854,
+        "Modified":  "2026-04-22T15:31:06"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\vendor-logos\\commscope.svg",
+        "Size":  19188,
+        "Modified":  "2026-04-22T15:45:14"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\vendor-logos\\hpe-aruba-networking.svg",
+        "Size":  3724,
+        "Modified":  "2026-04-22T15:19:08"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\vendor-logos\\hilton-hotels-resorts.svg",
+        "Size":  6097,
+        "Modified":  "2026-04-22T15:19:10"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\vendor-logos\\dell-technologies.svg",
+        "Size":  4873,
+        "Modified":  "2026-04-22T15:19:09"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\vendor-logos\\microsoft.svg",
+        "Size":  3163,
+        "Modified":  "2026-04-22T15:19:07"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\vendor-logos\\aman-resorts.svg",
+        "Size":  3848,
+        "Modified":  "2026-04-22T15:20:10"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\vendor-logos\\marriott-international.svg",
+        "Size":  4652,
+        "Modified":  "2026-04-22T15:19:37"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\vendor-logos\\hyatt.svg",
+        "Size":  5853,
+        "Modified":  "2026-04-22T15:20:14"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\vendor-logos\\cisco-meraki.svg",
+        "Size":  6027,
+        "Modified":  "2026-04-22T15:19:08"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\vendor-logos\\samsung.png",
+        "Size":  31823,
+        "Modified":  "2020-07-09T14:10:50"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\site-content\\1-7b3bdf55-c430-4cc8-80e7-5ad7182130be.webp",
+        "Size":  267824,
+        "Modified":  "2026-04-24T09:48:30"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\site-content\\1-f81c6a17-b54e-42dd-b8e8-282ece4146b8.webp",
+        "Size":  281316,
+        "Modified":  "2026-04-24T09:55:09"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\site-content\\1-459784eb-2bd6-4b81-a7b8-807b7eeb5dda.webp",
+        "Size":  267374,
+        "Modified":  "2026-04-24T09:53:25"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\logos\\radisson-hotel-1dad693c-c158-4fe2-902f-405df3f59f87.jpg",
+        "Size":  39431,
+        "Modified":  "2026-04-22T15:55:47"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\logos\\logocomscope-eb07de3e-e137-4fdc-8bcc-473a24a4a196.svg",
+        "Size":  19188,
+        "Modified":  "2026-04-22T15:53:36"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\logos\\ruckus-bbdc5737-d75a-40e9-84f9-d6c68c3597e5.svg",
+        "Size":  7147,
+        "Modified":  "2026-04-22T16:00:49"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\logos\\7fafba623facae7dfe776d031c2ed22d-b6389d34-3be1-4121-800c-712bfaf96ecc.png",
+        "Size":  39363,
+        "Modified":  "2026-04-22T10:50:46"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\logos\\alcatel-78b34d56-8204-4ba8-88a4-098e47911fb2.jpg",
+        "Size":  25333,
+        "Modified":  "2026-04-22T15:57:35"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\logos\\xpos-b832db61-2539-4879-a146-821c0432b778.jpg",
+        "Size":  23527,
+        "Modified":  "2026-04-22T15:54:18"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\logos\\wyndham-hotel-resort-a171eb0b-0632-4de0-ba61-965a47de884e.jpg",
+        "Size":  27030,
+        "Modified":  "2026-04-22T15:55:23"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\logos\\zafiro-9a1157d2-569d-4f28-92b1-efcd96e47483.jpg",
+        "Size":  33307,
+        "Modified":  "2026-04-22T15:58:51"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\logos\\meraki-136745b0-e6b1-4eeb-b743-7413f901f8ba.webp",
+        "Size":  21486,
+        "Modified":  "2026-04-22T10:44:29"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h1-aab4a094-cac4-470a-972a-d68fe508a168.webp",
+        "Size":  177602,
+        "Modified":  "2026-05-05T16:39:06"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h1-d0dc6095-7a46-4717-bda6-6ea2b8e240c0.webp",
+        "Size":  230732,
+        "Modified":  "2026-05-06T10:17:59"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\screenshot-11-1eca4f93-333e-4987-850a-c7117f151646.webp",
+        "Size":  297976,
+        "Modified":  "2026-04-23T17:46:08"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\screenshot-1-60b812b5-cdd6-4f29-830f-b9bf9f92c240.webp",
+        "Size":  316754,
+        "Modified":  "2026-04-23T17:15:44"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h2-8bbfacf0-144e-4b1f-8121-5c534dbe7d70.webp",
+        "Size":  440218,
+        "Modified":  "2026-04-22T16:22:40"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\2-7fea020b-f85f-4021-b235-e48a40489a22.webp",
+        "Size":  75216,
+        "Modified":  "2026-04-23T17:17:01"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h4-3868fb12-e460-497b-b5da-1d8879428296.webp",
+        "Size":  272208,
+        "Modified":  "2026-04-22T19:25:53"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h1-ca93630d-df5d-46e4-9b55-be80f2c53b2b.webp",
+        "Size":  332838,
+        "Modified":  "2026-04-22T16:27:45"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\screenshot-11-8159d65c-2ab2-4ae7-b61e-0c8b30515dd2.webp",
+        "Size":  228190,
+        "Modified":  "2026-04-23T17:34:42"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h2-05e128a7-489b-476f-bd81-fb98d37f8f93.webp",
+        "Size":  276332,
+        "Modified":  "2026-04-22T16:39:14"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h3-21898ffd-2834-4c93-995c-a5f8d59e2398.webp",
+        "Size":  151156,
+        "Modified":  "2026-04-22T16:27:29"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h1-a5ab8d10-acbe-48a3-b876-4e501e2eff91.webp",
+        "Size":  131336,
+        "Modified":  "2026-04-22T17:00:35"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\5-1c184e86-1a61-487f-a9c4-47b541815709.webp",
+        "Size":  213494,
+        "Modified":  "2026-04-23T17:17:08"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h1-77d60c86-8e78-4475-99f9-2eae2070c65e.webp",
+        "Size":  443156,
+        "Modified":  "2026-04-22T16:39:07"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h1-d52cbbb5-f2e1-4974-9299-c5c418e20328.webp",
+        "Size":  431482,
+        "Modified":  "2026-04-22T16:22:37"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\screenshot-1-c8a43b3b-33f7-4de6-acf0-7930f70f6be4.webp",
+        "Size":  343004,
+        "Modified":  "2026-04-22T19:45:02"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\screenshot-11-456c6f0b-631a-415a-8a8c-b6a528ab05e7.webp",
+        "Size":  206072,
+        "Modified":  "2026-04-23T17:38:41"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\screenshot-11-a64dc82e-6192-44c1-8e75-8c27f9b852ee.webp",
+        "Size":  425396,
+        "Modified":  "2026-04-23T16:53:05"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h3-94bd2d71-e25e-49db-bf1d-17ad1878b57f.webp",
+        "Size":  258016,
+        "Modified":  "2026-04-22T19:25:03"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h1-b821ef72-8a4f-4789-b67b-dd197c743c0b.webp",
+        "Size":  131336,
+        "Modified":  "2026-04-22T17:00:42"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h3-8098376c-9098-4a86-9f2d-250435c9e74b.webp",
+        "Size":  234622,
+        "Modified":  "2026-04-22T16:39:17"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h2-66a2915d-5b03-4dca-bd55-271b263bb0ae.webp",
+        "Size":  463800,
+        "Modified":  "2026-05-06T09:48:07"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\z7752271649505-ae62e6c2ba33b53faa67f632ad297165-732ca053-f289-49b1-8665-dbeab7be27b0.webp",
+        "Size":  116016,
+        "Modified":  "2026-04-22T16:48:05"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h1-b2e99ae2-1a68-47d2-b31a-c9076cc60053.webp",
+        "Size":  443156,
+        "Modified":  "2026-04-22T16:39:12"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\z7752271649498-91c603602146ebba92ba77866af54c60-65d0ebb3-70ca-4de0-b6cd-2577692869fe.webp",
+        "Size":  81938,
+        "Modified":  "2026-04-22T16:48:05"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h1-941265f9-5193-4164-9e7e-29da4de72343.webp",
+        "Size":  427790,
+        "Modified":  "2026-04-22T16:21:51"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h1-f46a1e66-68b9-443f-861d-c30b46142f0f.webp",
+        "Size":  225594,
+        "Modified":  "2026-05-05T16:51:36"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h1-a4133762-77a0-4295-9fa7-5f6e954d41a7.webp",
+        "Size":  205664,
+        "Modified":  "2026-05-05T16:42:00"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\z7752271818167-4b12946a4d635eeca29f7dff5fb4b55c-fc5f1011-44f0-48e7-bf0c-88bfbba8c34c.webp",
+        "Size":  187578,
+        "Modified":  "2026-04-22T16:48:05"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\3-dcff0a97-7a7b-4fec-bcfe-4d4cc59154c8.webp",
+        "Size":  138956,
+        "Modified":  "2026-04-23T17:17:04"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\4-552bd103-f8f3-4864-9aa9-23cf62e5df61.webp",
+        "Size":  150314,
+        "Modified":  "2026-04-23T17:17:06"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\screenshot-11-8e58da18-f2b1-4d41-b42b-5bcaf186649e.webp",
+        "Size":  140460,
+        "Modified":  "2026-04-23T17:54:53"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h1-720be6a3-3162-423a-86ec-918601a19ec3.webp",
+        "Size":  263314,
+        "Modified":  "2026-05-06T09:40:56"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h1-e1cae05d-63b1-4d29-916e-17f76d07275e.webp",
+        "Size":  206072,
+        "Modified":  "2026-05-05T16:40:39"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\screenshot-11-b2664bfc-1db8-4780-bc06-ed5141b79f9a.webp",
+        "Size":  422246,
+        "Modified":  "2026-04-23T17:15:38"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h1-4ff352d1-fc10-4143-9fab-a50d1aafb0f5.webp",
+        "Size":  179986,
+        "Modified":  "2026-04-22T19:24:50"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h3-8be8ac09-55ed-4bb7-a072-fd677dcb5631.webp",
+        "Size":  173128,
+        "Modified":  "2026-04-22T16:44:21"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h2-e0ce7748-75bc-4603-aaec-af0e635a7ac7.webp",
+        "Size":  432990,
+        "Modified":  "2026-04-22T16:22:04"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h1-b6e0dd62-1207-4759-8df8-dfbb5b292c14.webp",
+        "Size":  293120,
+        "Modified":  "2026-05-05T16:26:34"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h1-b7d039c7-08bb-4fda-88a1-13184962a567.webp",
+        "Size":  428538,
+        "Modified":  "2026-04-22T17:06:56"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\1-dec91944-1509-46da-a3e9-4dbb90d91888.webp",
+        "Size":  187366,
+        "Modified":  "2026-04-23T17:16:54"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\6-89bf646d-cdcc-4a75-b10b-38f5133a0376.webp",
+        "Size":  90604,
+        "Modified":  "2026-04-23T17:17:57"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h1-4c3aea38-76cd-4ae2-ba7a-448c2c24c98b.webp",
+        "Size":  324116,
+        "Modified":  "2026-05-05T16:33:54"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h1-addf9924-a939-4c5f-bcd6-34c8f01e9dce.webp",
+        "Size":  229650,
+        "Modified":  "2026-05-05T16:44:25"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h2-f9deffe4-08e5-4aa9-82db-25d359058443.webp",
+        "Size":  440218,
+        "Modified":  "2026-04-22T16:28:15"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\z7752271649505-ae62e6c2ba33b53faa67f632ad297165-7f04b98d-4ba1-4267-acb0-8d7dadb136b3.webp",
+        "Size":  116016,
+        "Modified":  "2026-04-22T16:47:54"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h1-b380203b-0b73-4e83-b06a-ee05a45438a2.webp",
+        "Size":  359226,
+        "Modified":  "2026-04-22T17:15:00"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h3-ae8f9a03-a35f-404f-82c1-5e0fbab4c53c.webp",
+        "Size":  255110,
+        "Modified":  "2026-04-22T17:01:58"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\z7752271881815-d525d71b0f797f9dfcf129b92a1f5058-5d486e63-3df2-4eb5-b570-0fc8b32d6b5e.webp",
+        "Size":  298452,
+        "Modified":  "2026-04-22T16:48:05"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h5-d39a9711-deea-42d0-b148-281553828c05.webp",
+        "Size":  271072,
+        "Modified":  "2026-04-22T19:25:09"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h1-996c33a1-3b85-4f9a-883c-65c7124a04f1.webp",
+        "Size":  332838,
+        "Modified":  "2026-04-22T16:22:13"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h2-b7b137fa-a8bc-4688-aff4-5700ba24227e.webp",
+        "Size":  333010,
+        "Modified":  "2026-04-22T19:24:58"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h2-cf96cd81-6fae-49e2-8e9f-518e89ae85d9.webp",
+        "Size":  166480,
+        "Modified":  "2026-04-22T17:00:53"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\z7752271669788-b38b228375d3207a915aa50ad83c6d64-aca8ce1a-5e18-4975-88e5-f20bd470f1dd.webp",
+        "Size":  149074,
+        "Modified":  "2026-04-22T16:48:05"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\logo-f1c85404-8cb9-419c-99a9-488aae89887b.webp",
+        "Size":  29282,
+        "Modified":  "2026-04-22T10:58:36"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\screenshot-11-ab16ebac-c368-4d20-8b50-92ab766ba7a1.webp",
+        "Size":  158182,
+        "Modified":  "2026-04-23T17:42:41"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\h1-296a685c-2912-43bc-bbcf-2eba7405abef.webp",
+        "Size":  493180,
+        "Modified":  "2026-05-05T16:49:51"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\screenshot-11-c9da43b7-5470-41d3-99c7-462bc5e9852b.webp",
+        "Size":  376966,
+        "Modified":  "2026-04-23T17:31:27"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\1-32fd7d80-6ba8-4b72-ad0c-869733756de2.webp",
+        "Size":  193614,
+        "Modified":  "2026-04-23T17:23:52"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\projects\\z7752271881946-9ee112e7c90637a05db828bae364123d-22089d87-0988-4ea8-a0b0-bbfb175f7b52.webp",
+        "Size":  269498,
+        "Modified":  "2026-04-22T16:48:05"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\services\\1-f24fb652-595f-4d58-a067-dac2badcaaf1.webp",
+        "Size":  16576,
+        "Modified":  "2026-04-24T10:14:35"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\uploads\\services\\01-ict-system-design-b83d9c0e-5f7d-4793-ae5a-d5e1095206a1.svg",
+        "Size":  2406,
+        "Modified":  "2026-04-24T10:07:01"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\brand\\logo-icon.png",
+        "Size":  356616,
+        "Modified":  "2024-08-20T09:28:50"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\brand\\logo-wordmark.png",
+        "Size":  37469,
+        "Modified":  "2024-08-20T09:28:48"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\brand\\logo-wordmark-pad.png",
+        "Size":  56735,
+        "Modified":  "2024-08-20T09:28:48"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\brand\\logo-full.png",
+        "Size":  178428,
+        "Modified":  "2026-04-22T20:48:15"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\brand\\logo-icon-solid.png",
+        "Size":  363149,
+        "Modified":  "2024-08-20T09:28:48"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\prisma\\schema.prisma",
+        "Size":  9539,
+        "Modified":  "2026-04-24T09:31:52"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\prisma\\seed.ts",
+        "Size":  22741,
+        "Modified":  "2026-04-22T11:07:04"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\prisma\\migrations\\migration_lock.toml",
+        "Size":  128,
+        "Modified":  "2026-04-21T11:22:06"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\prisma\\migrations\\20260421042206_init\\migration.sql",
+        "Size":  7315,
+        "Modified":  "2026-04-21T11:22:06"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\prisma\\migrations\\20260423103000_expand_service_content_fields\\migration.sql",
+        "Size":  1125,
+        "Modified":  "2026-04-23T15:04:55"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\prisma\\migrations\\20260424110000_add_content_font_size_fields\\migration.sql",
+        "Size":  261,
+        "Modified":  "2026-04-24T09:32:01"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\prisma\\migrations\\20260422120000_remove_leaders_table\\migration.sql",
+        "Size":  32,
+        "Modified":  "2026-04-22T11:08:37"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\content\\cms-local.json",
+        "Size":  129128,
+        "Modified":  "2026-05-06T11:21:47"
+    },
+    {
+        "Path":  "\\\\wsl.localhost\\Ubuntu\\home\\khoa\\projects\\networkai\\backups\\manual-20260506-112557\\content\\products.json",
+        "Size":  11211,
+        "Modified":  "2026-04-25T08:46:05"
+    }
+]

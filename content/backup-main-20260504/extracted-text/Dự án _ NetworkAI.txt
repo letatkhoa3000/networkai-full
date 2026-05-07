@@ -1,0 +1,81 @@
+Dự án | NetworkAI
+Your download's being scanned. We'll let you know if there's an issue.
+Trang chủGiới thiệuDịch vụSản phẩmDự ánĐối tácLiên hệ
+EnglishLiên hệ ngay
+Dự án
+Công trình tiêu biểu
+Hơn 18 năm triển khai cho các thương hiệu khách sạn hàng đầu thế giới tại Việt Nam.
+AmanWyndhamHiltonMarriottNovotelPullmanMercureMGalleryInterContinentalHyattRadisson BluRadissonIndependent
+AmanHoàn thành
+Ninh Thuận • 2025
+Amanoi Resort
+Triển khai hạ tầng ảo hóa tiên tiến Nutanix, thi công trọn gói hệ thống ELV và cung cấp các dịch vụ IT chuyên nghiệp cho khu nghỉ dưỡng 6 sao Amanoi.
+WyndhamHoàn thành
+Hội An
+Wyndham Hội An Royal Beachfront Resort & Villas
+Tổng thầu thiết kế và thi công trọn gói hệ thống ELV trên nền tảng hạ tầng mạng quang GPON Huawei, mang lại kết nối băng thông rộng vượt trội cho dự án Wyndham Hoi An Royal Beachfront Resort & Villas
+HiltonĐang triển khai
+Hội An • 2026
+Hilton Tapestry Casamia Hội An (2025)
+Cung cấp dịch vụ thẩm định thiết kế và tư vấn giám sát hệ thống ELV chuyên sâu, đảm bảo công trình đạt tiêu chuẩn khắt khe của tập đoàn Hilton quốc tế.
+HiltonHoàn thành
+Hà Nội • 2023
+Hilton West Hà Nội
+Cung cấp dịch vụ tư vấn và thiết kế hạ tầng IT toàn diện cho Hilton West Hanoi, từ ý tưởng sơ bộ đến hồ sơ thi công chi tiết theo tiêu chuẩn Hilton toàn cầu.
+MarriottHoàn thành
+Phú Quốc • 2106
+JW Marriott Phú Quốc Emerald Bay Resort & Spa
+Cung cấp và lắp đặt trọn gói hệ thống Wi-Fi diện rộng và giải pháp truyền hình tương tác IPTV cho kiệt tác nghỉ dưỡng JW Marriott Phu Quoc Emerald Bay.
+NovotelHoàn thành
+Đà Nẵng • 2025
+Novotel Naman Village
+Cung cấp và lắp đặt trọn gói hệ thống Admin Network cho Novotel Naman Village, đảm bảo hạ tầng công nghệ thông tin vận hành theo tiêu chuẩn khắt khe của tập đoàn Accor.
+PullmanHoàn thành
+Đà Nẵng
+Pullman Đà Nẵng Beach Resort
+Cung cấp hạ tầng mạng Cisco, hệ thống máy chủ HPE và các giải pháp phần mềm bản quyền theo tiêu chuẩn Accor cho Pullman Danang Beach Resort.
+Hải Phòng • 2024
+Pullman Hải Phòng
+Cung cấp và lắp đặt trọn gói hệ thống Admin Network theo tiêu chuẩn Accor toàn cầu cho Pullman Hải Phòng, tích hợp các giải pháp bảo mật và lưu trữ tiên tiến nhất.
+MercureHoàn thành
+Hải Phòng
+Mercure Hải Phòng
+MGalleryHoàn thành
+Sapa • 2018
+Hotel De La Coupole – MGallery Sapa
+Tư vấn thiết kế, cung cấp và lắp đặt trọn gói các hệ thống HSIA, Wi-Fi, CCTV và IPTV cho khách sạn 5 sao đẳng cấp quốc tế Hotel de la Coupole – MGallery Sapa.
+InterContinentalHoàn thành
+Đà Nẵng • 2017
+InterContinental Đà Nẵng Sun Peninsula
+Cung cấp và lắp đặt hệ thống Wi-Fi diện rộng cùng giải pháp giám sát an ninh CCTV tiên tiến cho khu nghỉ dưỡng đẳng cấp thế giới InterContinental Danang Sun Peninsula.
+HyattHoàn thành
+Hyatt Regency Đà Nẵng
+Cung cấp giải pháp hạ tầng mạng, hệ thống Wi-Fi toàn diện và dịch vụ bảo trì chuyên nghiệp cho hệ thống mạng Cisco và hạ tầng IBM tại Hyatt Regency Da Nang.
+Hilton Đà Nẵng
+Cung cấp và lắp đặt trọn gói hệ thống IPTV cao cấp cho Hilton Da Nang, mang lại trải nghiệm giải trí tương tác hiện đại chuẩn 5 sao cho khách lưu trú.
+Radisson BluHoàn thành
+Cam Ranh • 2026
+Radisson Blu Resort Cam Ranh
+Triển khai giải pháp quản trị Internet băng thông rộng (HSIA Gateway) từ Xpossible cho Radisson Blu Resort Cam Ranh, tối ưu hóa trải nghiệm kết nối và quản lý dịch vụ cho khách hàng.
+RadissonHoàn thành
+Đà Nẵng • 2020
+Radisson Hotel Đà Nẵng
+Tổng thầu thiết kế và thi công trọn gói hạ tầng ICT đa dịch vụ và hệ thống quản lý phòng thông minh (RCU) hiện đại cho Radisson Hotel Da Nang.
+Hoàn thành
+Euro Village Đà Nẵng
+Thiết kế và thi công hệ thống Smart Home cao cấp tại Euro Village, tối ưu hóa trải nghiệm với hạ tầng mạng Ruckus & HPE cùng giải pháp điều khiển thông minh Control4 và Lutron.
+Casino Hoiana
+Lắp đặt và cấu hình hệ thống giám sát an ninh (Surveillance System) chuyên dụng cho Casino Hoiana, đáp ứng các tiêu chuẩn kỹ thuật khắt khe của Macau Casino Standard.
+IndependentHoàn thành
+Kon Tum • 2021
+Golden Boutique Hotel Măng Đen
+Tổng thầu thiết kế và thi công trọn gói hệ thống hạ tầng ICT và giải pháp điều khiển phòng thông minh (RCU) cho khách sạn cao cấp Golden Boutique Măng Đen.
+Tầng 3, Kim Son Building - 18 Phan Thành Tài, Hải Châu, TP. Đà Nẵng
+sales@networkai.vn
+Điều hướng
+Năng lực
+ICTELVSmart BuildingHospitality Technology
+Bước tiếp theo
+Nếu anh có brief dự án hoặc mốc opening, hãy gửi cho chúng tôi để cùng định hình phạm vi kỹ thuật phù hợp.
+Liên hệ ngay→
+© 2026 NetworkAI. All rights reserved.

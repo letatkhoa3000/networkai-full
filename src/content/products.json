@@ -1,0 +1,119 @@
+[
+  {
+    "slug": "netops-argus",
+    "nameVi": "NetOps Argus",
+    "nameEn": "NetOps Argus",
+    "categoryVi": "Nền tảng network intelligence on-prem",
+    "categoryEn": "On-prem network intelligence platform",
+    "shortDescVi": "Nền tảng do NetworkAI phát triển để giúp đội NetOps nhìn topology, health, syslog, assets, và cấu hình trong một hệ thống vận hành thống nhất.",
+    "shortDescEn": "A platform built by NetworkAI to help NetOps teams see topology, health, syslog, assets, and configuration context in one operational surface.",
+    "descriptionVi": "NetOps Argus tập trung vào việc rút ngắn thời gian phát hiện, kiểm tra, và xử lý sự cố mạng trong môi trường on-prem. Sản phẩm gom dữ liệu topology, health, syslog, inventory, và kiểm tra cấu hình để đội vận hành có đủ ngữ cảnh trước khi hành động.",
+    "descriptionEn": "NetOps Argus is designed to shorten the time it takes to discover, investigate, and act on network issues in on-prem environments. It brings topology, health, syslog, inventory, and configuration review into one workspace so operations teams have the context they need before taking action.",
+    "metaTitleVi": "NetOps Argus | Sản phẩm NetworkAI",
+    "metaTitleEn": "NetOps Argus | NetworkAI Product",
+    "metaDescVi": "Khám phá NetOps Argus, nền tảng network intelligence on-prem của NetworkAI cho topology, health, syslog, asset inventory, và config review.",
+    "metaDescEn": "Explore NetOps Argus, NetworkAI's on-prem network intelligence platform for topology, health, syslog, asset inventory, and configuration review.",
+    "primaryCtaVi": "Yêu cầu demo",
+    "primaryCtaEn": "Request a demo",
+    "secondaryCtaVi": "Trao đổi với chúng tôi",
+    "secondaryCtaEn": "Talk to our team",
+    "demoBlurbVi": "Phù hợp cho đội NetOps, IT vận hành, system integrator, và các môi trường cần rút ngắn thời gian từ cảnh báo tới hành động có ngữ cảnh.",
+    "demoBlurbEn": "Designed for NetOps teams, internal IT operations, system integrators, and environments that need to shorten the path from alert to contextual action.",
+    "previewImageUrl": "https://www.netargus.io/hero_topology_narrative.png",
+    "secondaryImageUrl": "https://www.netargus.io/hero_config_diff_narrative.png",
+    "capabilitiesVi": [
+      "Topology có ngữ cảnh để thấy nhanh mối liên kết giữa thiết bị và sự cố",
+      "Health monitoring tập trung cho các thành phần mạng quan trọng",
+      "Syslog giúp rút ngắn thời gian lọc tín hiệu vận hành",
+      "Asset inventory và config review trong cùng một workflow"
+    ],
+    "capabilitiesEn": [
+      "Context-aware topology to quickly understand device relationships and failure domains",
+      "Centralized health monitoring for critical network components",
+      "Syslog triage that reduces time spent filtering operational noise",
+      "Asset inventory and configuration review inside the same workflow"
+    ],
+    "problemAreasVi": [
+      "Mất quá nhiều thời gian chuyển qua lại giữa topology, logs, health, và cấu hình khi điều tra sự cố.",
+      "Dễ nhìn thấy tín hiệu rời rạc nhưng khó ghép chúng thành một bối cảnh vận hành có thể hành động ngay.",
+      "Inventory, config drift, và bằng chứng điều tra thường nằm rải rác ở nhiều bề mặt khác nhau."
+    ],
+    "problemAreasEn": [
+      "Too much time is lost jumping between topology, logs, health, and configuration while investigating incidents.",
+      "Teams can see isolated signals, but struggle to assemble them into operational context they can act on immediately.",
+      "Inventory, config drift, and evidence trails often live across disconnected surfaces."
+    ],
+    "features": [
+      {
+        "titleVi": "Topology & discovery",
+        "titleEn": "Topology & discovery",
+        "bodyVi": "Tự động khám phá và trực quan hóa mối liên kết giữa các node để đội vận hành nhìn thấy cấu trúc hạ tầng theo thời gian thực tế.",
+        "bodyEn": "Automatically discover and visualize relationships between nodes so operations teams can read the infrastructure structure in practical time."
+      },
+      {
+        "titleVi": "Health & syslog",
+        "titleEn": "Health & syslog",
+        "bodyVi": "Theo dõi tình trạng thiết bị, kết hợp syslog và tín hiệu vận hành để điều tra nhanh hơn khi có bất thường.",
+        "bodyEn": "Track device health and combine syslog with operational signals to accelerate investigation when anomalies appear."
+      },
+      {
+        "titleVi": "Assets & config review",
+        "titleEn": "Assets & config review",
+        "bodyVi": "Quản lý inventory, đối chiếu cấu hình, và rà soát drift để hạn chế các thay đổi khó kiểm soát trong môi trường vận hành.",
+        "bodyEn": "Manage inventory, compare configurations, and review drift to reduce uncontrolled changes across the operating environment."
+      },
+      {
+        "titleVi": "Investigation depth",
+        "titleEn": "Investigation depth",
+        "bodyVi": "Đi từ cảnh báo tới raw files, SSH context, và thông tin chi tiết cần thiết để đưa ra quyết định xử lý có cơ sở.",
+        "bodyEn": "Move from alerts to raw files, SSH context, and deeper operational detail needed for a grounded response."
+      }
+    ],
+    "workflow": [
+      {
+        "titleVi": "Discover",
+        "titleEn": "Discover",
+        "bodyVi": "Nhìn thấy topology, inventory, và trạng thái nền để biết vấn đề nằm ở đâu và lan sang đâu.",
+        "bodyEn": "See topology, inventory, and baseline state to understand where an issue starts and where it propagates."
+      },
+      {
+        "titleVi": "Investigate",
+        "titleEn": "Investigate",
+        "bodyVi": "Đi sâu vào health, syslog, và cấu hình liên quan để kiểm chứng giả thuyết điều tra bằng dữ liệu thực.",
+        "bodyEn": "Go deeper into health, syslog, and related configuration to test investigation hypotheses with real data."
+      },
+      {
+        "titleVi": "Act",
+        "titleEn": "Act",
+        "bodyVi": "Từ kết luận điều tra, đội vận hành có thể triển khai hành động khắc phục nhanh và có ngữ cảnh hơn.",
+        "bodyEn": "Translate the investigation into faster, more contextual operational action and remediation."
+      }
+    ],
+    "useCases": [
+      {
+        "titleVi": "Khách sạn và resort nhiều site",
+        "titleEn": "Multi-site hotels and resorts",
+        "bodyVi": "Phù hợp với môi trường hospitality cần nhìn nhanh trạng thái mạng, thiết bị, và sự kiện vận hành trên nhiều khu vực.",
+        "bodyEn": "Well suited for hospitality environments that need fast visibility into network state, assets, and events across multiple areas."
+      },
+      {
+        "titleVi": "Campus hoặc enterprise network",
+        "titleEn": "Campus or enterprise networks",
+        "bodyVi": "Giúp đội IT nội bộ điều tra liên kết topology, inventory, và cấu hình trong môi trường có nhiều lớp hạ tầng.",
+        "bodyEn": "Helps internal IT teams investigate topology, inventory, and configuration across layered infrastructure environments."
+      },
+      {
+        "titleVi": "SI hoặc operator cần điều tra nhanh",
+        "titleEn": "SIs or operators needing faster triage",
+        "bodyVi": "Tạo một bề mặt quan sát chung để rút ngắn thời gian handoff giữa monitoring, investigation, và corrective action.",
+        "bodyEn": "Creates a shared operational surface that shortens handoff time between monitoring, investigation, and corrective action."
+      }
+    ],
+    "featuresVi": "Topology & discovery || Tự động khám phá và trực quan hóa mối liên kết giữa các node để đội vận hành nhìn thấy cấu trúc hạ tầng theo thời gian thực tế.\nHealth & syslog || Theo dõi tình trạng thiết bị, kết hợp syslog và tín hiệu vận hành để điều tra nhanh hơn khi có bất thường.\nAssets & config review || Quản lý inventory, đối chiếu cấu hình, và rà soát drift để hạn chế các thay đổi khó kiểm soát trong môi trường vận hành.\nInvestigation depth || Đi từ cảnh báo tới raw files, SSH context, và thông tin chi tiết cần thiết để đưa ra quyết định xử lý có cơ sở.",
+    "featuresEn": "Topology & discovery || Automatically discover and visualize relationships between nodes so operations teams can read the infrastructure structure in practical time.\nHealth & syslog || Track device health and combine syslog with operational signals to accelerate investigation when anomalies appear.\nAssets & config review || Manage inventory, compare configurations, and review drift to reduce uncontrolled changes across the operating environment.\nInvestigation depth || Move from alerts to raw files, SSH context, and deeper operational detail needed for a grounded response.",
+    "workflowVi": "Discover || Nhìn thấy topology, inventory, và trạng thái nền để biết vấn đề nằm ở đâu và lan sang đâu.\nInvestigate || Đi sâu vào health, syslog, và cấu hình liên quan để kiểm chứng giả thuyết điều tra bằng dữ liệu thực.\nAct || Từ kết luận điều tra, đội vận hành có thể triển khai hành động khắc phục nhanh và có ngữ cảnh hơn.",
+    "workflowEn": "Discover || See topology, inventory, and baseline state to understand where an issue starts and where it propagates.\nInvestigate || Go deeper into health, syslog, and related configuration to test investigation hypotheses with real data.\nAct || Translate the investigation into faster, more contextual operational action and remediation.",
+    "useCasesVi": "Khách sạn và resort nhiều site || Phù hợp với môi trường hospitality cần nhìn nhanh trạng thái mạng, thiết bị, và sự kiện vận hành trên nhiều khu vực.\nCampus hoặc enterprise network || Giúp đội IT nội bộ điều tra liên kết topology, inventory, và cấu hình trong môi trường có nhiều lớp hạ tầng.\nSI hoặc operator cần điều tra nhanh || Tạo một bề mặt quan sát chung để rút ngắn thời gian handoff giữa monitoring, investigation, và corrective action.",
+    "useCasesEn": "Multi-site hotels and resorts || Well suited for hospitality environments that need fast visibility into network state, assets, and events across multiple areas.\nCampus or enterprise networks || Helps internal IT teams investigate topology, inventory, and configuration across layered infrastructure environments.\nSIs or operators needing faster triage || Creates a shared operational surface that shortens handoff time between monitoring, investigation, and corrective action."
+  }
+]
