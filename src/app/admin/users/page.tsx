@@ -16,7 +16,7 @@ export default async function AdminUsersPage({
   if (!session) redirect(withAdminLocale('/admin/login', locale))
 
   const currentUser = session.user as { id?: string; role?: string; email?: string } | undefined
-  const users = await safeDb(
+  const users = (await safeDb(
     'admin users list',
     () =>
       prisma.user.findMany({
@@ -38,7 +38,7 @@ export default async function AdminUsersPage({
           },
         ]
       : []
-  )
+  ))as UserRow[]
 
   return (
     <div>
@@ -49,7 +49,7 @@ export default async function AdminUsersPage({
 
       <UserManagementPanel
         locale={locale}
-        users={users as UserRow[]}
+        users={users}
         currentUserId={currentUser?.id}
         canManage={currentUser?.role === 'ADMIN'}
       />
