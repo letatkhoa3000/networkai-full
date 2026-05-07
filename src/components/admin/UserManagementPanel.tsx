@@ -3,7 +3,7 @@
 import { useMemo, useState } from 'react'
 import { AdminLocale, adminCopy } from '@/lib/admin-locale'
 
-type UserRow = {
+export type UserRow = {
   id: string
   name: string
   email: string

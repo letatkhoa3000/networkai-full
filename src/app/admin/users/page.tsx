@@ -4,7 +4,7 @@ import { auth } from '@/lib/auth'
 import { adminCopy, getAdminLocale, withAdminLocale } from '@/lib/admin-locale'
 import UserManagementPanel from '@/components/admin/UserManagementPanel'
 import { safeDb } from '@/lib/safe-db'
-
+import type { UserRow } from "@/components/admin/UserManagementPanel"
 export default async function AdminUsersPage({
   searchParams,
 }: {
@@ -49,7 +49,7 @@ export default async function AdminUsersPage({
 
       <UserManagementPanel
         locale={locale}
-        users={users}
+        users={users as UserRow[]}
         currentUserId={currentUser?.id}
         canManage={currentUser?.role === 'ADMIN'}
       />
