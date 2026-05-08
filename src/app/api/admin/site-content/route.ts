@@ -1,12 +1,12 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { revalidatePath } from 'next/cache'
-import { auth } from '@/lib/auth'
 import { prisma } from '@/lib/prisma'
 import { writeLocalContent } from '@/lib/local-content-store'
+import { requireCmsUser } from '@/lib/admin-auth'
 
 export async function PUT(req: NextRequest) {
-  const session = await auth()
-  if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+  const gate = await requireCmsUser()
+  if (!gate.ok) return gate.response
 
   const data = await req.json()
   const sections: any[] = Array.isArray(data.sections) ? data.sections : []

@@ -96,7 +96,13 @@ export function getBackupProjectBySlug(slug: string) {
 }
 
 export function getBackupPartners() {
-  return (readBackupPayload().partners ?? []).filter((item) => item.isVisible !== false)
+  const backup = (readBackupPayload().partners ?? []).filter((item) => item.isVisible !== false)
+  const local = (readLocalContent().partners ?? []).filter((item) => item.isVisible !== false)
+  const map = new Map(backup.map((item) => [item.id, item]))
+  for (const item of local) {
+    map.set(item.id, item)
+  }
+  return Array.from(map.values())
 }
 
 export function getBackupSettings(keys: string[]) {

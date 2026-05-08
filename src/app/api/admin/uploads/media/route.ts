@@ -2,7 +2,7 @@ import { randomUUID } from 'crypto'
 import { mkdir, writeFile } from 'fs/promises'
 import path from 'path'
 import { NextRequest, NextResponse } from 'next/server'
-import { auth } from '@/lib/auth'
+import { requireCmsUser } from '@/lib/admin-auth'
 
 const ALLOWED_TYPES = new Map([
   ['image/svg+xml', '.svg'],
@@ -28,8 +28,8 @@ function getExtension(file: File) {
 }
 
 export async function POST(req: NextRequest) {
-  const session = await auth()
-  if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+  const gate = await requireCmsUser()
+  if (!gate.ok) return gate.response
 
   const formData = await req.formData()
   const file = formData.get('file')

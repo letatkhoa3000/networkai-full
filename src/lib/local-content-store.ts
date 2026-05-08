@@ -7,6 +7,7 @@ type LocalContentPayload = {
   settings?: any[]
   services?: any[]
   projects?: any[]
+  partners?: any[]
 }
 
 function getLocalContentPath() {
@@ -86,5 +87,22 @@ export function upsertLocalProject(project: any) {
 
   return writeLocalContent({
     projects: next,
+  })
+}
+
+export function upsertLocalPartner(partner: any) {
+  const current = readLocalContent()
+  const base = Array.isArray(current.partners) ? current.partners : []
+  const next = [...base]
+  const index = next.findIndex((item) => item.id === partner.id)
+
+  if (index >= 0) {
+    next[index] = { ...next[index], ...partner }
+  } else {
+    next.push(partner)
+  }
+
+  return writeLocalContent({
+    partners: next,
   })
 }

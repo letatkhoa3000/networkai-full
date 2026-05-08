@@ -1,8 +1,8 @@
 import bcrypt from 'bcryptjs'
 import { NextRequest, NextResponse } from 'next/server'
 import { z } from 'zod'
-import { auth } from '@/lib/auth'
 import { prisma } from '@/lib/prisma'
+import { requireCmsUser } from '@/lib/admin-auth'
 
 const createUserSchema = z.object({
   name: z.string().min(1),
@@ -11,18 +11,9 @@ const createUserSchema = z.object({
   role: z.enum(['ADMIN', 'EDITOR']).default('EDITOR'),
 })
 
-async function requireAdmin() {
-  const session = await auth()
-  const user = session?.user as { role?: string } | undefined
-  if (!session || user?.role !== 'ADMIN') {
-    return null
-  }
-  return user
-}
-
 export async function GET() {
-  const user = await requireAdmin()
-  if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+  const gate = await requireCmsUser({ adminOnly: true })
+  if (!gate.ok) return gate.response
 
   const users = await prisma.user.findMany({
     orderBy: [{ role: 'asc' }, { name: 'asc' }],
@@ -32,8 +23,8 @@ export async function GET() {
 }
 
 export async function POST(req: NextRequest) {
-  const user = await requireAdmin()
-  if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+  const gate = await requireCmsUser({ adminOnly: true })
+  if (!gate.ok) return gate.response
 
   const parsed = createUserSchema.safeParse(await req.json())
   if (!parsed.success) {

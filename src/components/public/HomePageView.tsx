@@ -158,10 +158,10 @@ export default function HomePageView({
   return (
     <>
       <Header locale={locale} switchPath="/" />
-      <main className="pt-[78px]">
+      <main className="overflow-x-hidden pt-[78px]">
         <section className="page-hero relative overflow-hidden pb-8 pt-8 sm:pb-10 sm:pt-10 lg:pb-10 lg:pt-10">
-          <div className="absolute left-[-120px] top-[-70px] h-[280px] w-[280px] rounded-full bg-[#2f6fff]/10 blur-3xl" />
-          <div className="absolute right-[-120px] top-[-80px] h-[420px] w-[420px] rounded-full bg-[#2f6fff]/8 blur-3xl" />
+          <div className="absolute left-0 top-[-70px] h-[280px] w-[280px] rounded-full bg-[#2f6fff]/10 blur-3xl" />
+          <div className="absolute right-0 top-[-80px] h-[420px] w-[420px] rounded-full bg-[#2f6fff]/8 blur-3xl" />
           <div className="page-shell relative grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(420px,1fr)] lg:items-stretch">
             <div className="animate-fade-up">
               <div className="surface-panel flex h-full flex-col p-6 sm:p-7">
@@ -328,7 +328,7 @@ export default function HomePageView({
             <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
               <div className="max-w-5xl">
                 <p className="section-tag">{text.servicesTag}</p>
-                <h2 className="section-heading mt-4 max-w-[34ch] whitespace-nowrap">
+                <h2 className="section-heading mt-4 max-w-[34ch]">
                   {text.servicesTitle}
                 </h2>
                 <p className="section-body mt-4 max-w-[76ch]">{text.servicesBody}</p>
@@ -371,7 +371,7 @@ export default function HomePageView({
             <div className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr] lg:items-end">
               <div className="max-w-5xl">
                 <p className="section-tag">{text.projectsTag}</p>
-                <h2 className="section-heading mt-4 max-w-[34ch] whitespace-nowrap">
+                <h2 className="section-heading mt-4 max-w-[34ch]">
                   {text.projectsTitle}
                 </h2>
                 <p className="section-body mt-4 max-w-[76ch]">{text.projectsBody}</p>
@@ -459,7 +459,7 @@ export default function HomePageView({
 
         <section className="page-section bg-white">
           <div className="mx-auto max-w-5xl px-4 text-center sm:px-6">
-            <h2 className="section-heading mx-auto max-w-none whitespace-nowrap">
+            <h2 className="section-heading mx-auto max-w-[22ch]">
               {text.ctaTitle}
             </h2>
             <p className="section-body mx-auto mt-4 max-w-[76ch]">{text.ctaBody}</p>

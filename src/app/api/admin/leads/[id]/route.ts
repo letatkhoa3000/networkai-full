@@ -1,10 +1,10 @@
 import { prisma } from '@/lib/prisma'
 import { NextRequest, NextResponse } from 'next/server'
-import { auth } from '@/lib/auth'
+import { requireCmsUser } from '@/lib/admin-auth'
 
 export async function PUT(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
-  const session = await auth()
-  if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+  const gate = await requireCmsUser()
+  if (!gate.ok) return gate.response
 
   const { id } = await params
   const data = await req.json()

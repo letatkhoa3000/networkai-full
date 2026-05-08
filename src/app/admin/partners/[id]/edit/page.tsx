@@ -2,6 +2,7 @@ import { prisma } from '@/lib/prisma'
 import { notFound } from 'next/navigation'
 import PartnerEditForm from '@/components/admin/PartnerEditForm'
 import { adminCopy, getAdminLocale } from '@/lib/admin-locale'
+import { getBackupPartners } from '@/lib/backup-content'
 
 export default async function EditPartnerPage({
   params,
@@ -13,7 +14,15 @@ export default async function EditPartnerPage({
   const locale = getAdminLocale((await searchParams).lang)
   const copy = adminCopy[locale].forms
   const { id } = await params
-  const partner = await prisma.partner.findUnique({ where: { id } })
+  let partner = getBackupPartners().find((item) => item.id === id) ?? null
+
+  try {
+    const dbPartner = await prisma.partner.findUnique({ where: { id } })
+    partner = dbPartner ?? partner
+  } catch {
+    // use backup/local fallback
+  }
+
   if (!partner) notFound()
 
   return (

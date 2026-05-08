@@ -1,9 +1,9 @@
 import { prisma } from '@/lib/prisma'
 import { NextRequest, NextResponse } from 'next/server'
-import { auth } from '@/lib/auth'
 import { revalidatePath } from 'next/cache'
 import { getBackupServices } from '@/lib/backup-content'
 import { upsertLocalService } from '@/lib/local-content-store'
+import { requireCmsUser } from '@/lib/admin-auth'
 
 function parseLines(value: unknown) {
   if (Array.isArray(value)) {
@@ -23,8 +23,8 @@ function parseLines(value: unknown) {
 }
 
 export async function PUT(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
-  const session = await auth()
-  if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+  const gate = await requireCmsUser()
+  if (!gate.ok) return gate.response
 
   const { id } = await params
   const data = await req.json()
@@ -66,7 +66,16 @@ export async function PUT(req: NextRequest, { params }: { params: Promise<{ id: 
 
   try {
     const current = await prisma.service.findUnique({ where: { id } })
-    if (!current) return NextResponse.json({ error: 'Not found' }, { status: 404 })
+    if (!current) {
+      upsertLocalService(payload)
+      revalidatePath('/services')
+      revalidatePath('/en/services')
+      revalidatePath(`/services/${payload.slug}`)
+      revalidatePath(`/en/services/${payload.slug}`)
+      revalidatePath('/')
+      revalidatePath('/en')
+      return NextResponse.json(payload)
+    }
 
     const service = await prisma.service.update({
       where: { id },

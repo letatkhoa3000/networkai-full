@@ -18,7 +18,8 @@ export default async function EditProjectPage({
   let project = backupProject
 
   try {
-    project = await prisma.project.findUnique({ where: { id } })
+    const dbProject = await prisma.project.findUnique({ where: { id } })
+    project = dbProject ?? backupProject
   } catch {
     project = backupProject
   }

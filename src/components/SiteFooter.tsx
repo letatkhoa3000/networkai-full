@@ -17,7 +17,7 @@ export default function SiteFooter({
   return (
     <footer className="border-t border-[var(--border-soft)] bg-[var(--bg-page-alt)] py-14 text-[color:var(--text-strong)] sm:py-16">
       <div className="page-shell">
-        <div className="grid gap-10 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,0.72fr)_minmax(0,0.72fr)_minmax(0,0.9fr)]">
+ <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,0.72fr)_minmax(0,0.72fr)_minmax(0,0.9fr)]">
           <div className="max-w-xl">
             <BrandLogo variant="header" className="origin-left scale-[0.96]" />
             <div className="mt-6 space-y-3">

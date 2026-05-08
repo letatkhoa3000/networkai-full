@@ -1,8 +1,8 @@
 import bcrypt from 'bcryptjs'
 import { NextRequest, NextResponse } from 'next/server'
 import { z } from 'zod'
-import { auth } from '@/lib/auth'
 import { prisma } from '@/lib/prisma'
+import { requireCmsUser } from '@/lib/admin-auth'
 
 const updateUserSchema = z.object({
   name: z.string().min(1).optional(),
@@ -11,18 +11,10 @@ const updateUserSchema = z.object({
   role: z.enum(['ADMIN', 'EDITOR']).optional(),
 })
 
-async function requireAdmin() {
-  const session = await auth()
-  const user = session?.user as { id?: string; role?: string } | undefined
-  if (!session || user?.role !== 'ADMIN') {
-    return null
-  }
-  return user
-}
-
 export async function PUT(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
-  const admin = await requireAdmin()
-  if (!admin) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+  const gate = await requireCmsUser({ adminOnly: true })
+  if (!gate.ok) return gate.response
+  const admin = gate.user
 
   const parsed = updateUserSchema.safeParse(await req.json())
   if (!parsed.success) {
@@ -47,8 +39,9 @@ export async function PUT(req: NextRequest, { params }: { params: Promise<{ id: 
 }
 
 export async function DELETE(_req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
-  const admin = await requireAdmin()
-  if (!admin) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+  const gate = await requireCmsUser({ adminOnly: true })
+  if (!gate.ok) return gate.response
+  const admin = gate.user
 
   const { id } = await params
   if (admin.id === id) {

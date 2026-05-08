@@ -47,6 +47,7 @@ export const adminCopy = {
       ],
     },
     leads: {
+      title: 'Leads', 
       countSuffix: 'yêu cầu liên hệ',
       filters: ['Tất cả', 'Mới', 'Đã đọc', 'Đã phản hồi'],
       emptyTitle: 'Chưa có leads nào',
@@ -236,6 +237,7 @@ export const adminCopy = {
       ],
     },
     leads: {
+      title: 'Leads',
       countSuffix: 'contact requests',
       filters: ['All', 'New', 'Read', 'Replied'],
       emptyTitle: 'No leads yet',

@@ -15,10 +15,11 @@ export default async function EditServicePage({
   const locale = getAdminLocale((await searchParams).lang)
   const copy = adminCopy[locale].forms
   const { id } = await params
+  const fallbackService = getBackupServices().find((item) => item.id === id) ?? null
   const service = await safeDb(
     `admin service detail ${id}`,
-    () => prisma.service.findUnique({ where: { id } }),
-    getBackupServices().find((item) => item.id === id) ?? null
+    async () => (await prisma.service.findUnique({ where: { id } })) ?? fallbackService,
+    fallbackService
   )
   if (!service) notFound()
 
